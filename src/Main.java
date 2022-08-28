@@ -37,6 +37,14 @@ public class Main {
             }
         }
         System.out.printf("Максимальная сумма трат за день составила %s рублей \n", max);
-    }
 
+        //Задание 3
+        System.out.println("========== Задание 3 ==========");
+        double  average = 0;
+        for (int i = 0; i < arrBuh.length; i++) {
+            average += arrBuh[i];
+        }
+        average = average / arrBuh.length;
+        System.out.printf("Средняя сумма трат за месяц составила %s рублей \n", average);
+    }
 }
